@@ -8,7 +8,7 @@ export default function App() {
 				<Button title="Add Goal" />
 			</View>
 			<View>
-				<Text>List of goals!!...</Text>
+				<Text>List of goals...</Text>
 			</View>
 		</View>
 	);

@@ -19,8 +19,6 @@ const GoalInput = (props) => {
 		setEnteredGoalText("");
 	};
 
-	console.log(enteredGoalText);
-
 	return (
 		<Modal visible={props.visible} animationType="slide">
 			<View style={styles.inputContainer}>

@@ -14,10 +14,11 @@ const GoalInput = (props) => {
 		setEnteredGoalText(enteredText);
 	};
 
-	function addGoalHandler() {
+	const addGoalHandler = () => {
 		props.onAddGoal(enteredGoalText);
 		setEnteredGoalText("");
-	}
+	};
+
 	return (
 		<Modal visible={props.visible} animationType="slide">
 			<View style={styles.inputContainer}>
